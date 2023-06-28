@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Converter Online</title>
+</head>
+
+<body>
+    <div class="bg-image" style="
+           background-image: url('https://www.guiadeprensa.com/wp-content/uploads/2018/09/Portada21mayo2018LVG.jpg');
+           height: 100vh;">
+        <div class="mask" style="height: 100vh; background-color: hsla(0, 0%, 0%, 0.8)">
+            <div class="px-2 py-5 text-center">
+                <h1 class="text-light display-5 fw-bold">Convert file CSV to Excel</h1>
+                <br>
+                <form method="POST" action="/csv2excel" enctype="multipart/form-data">
+                    <div class="input-group container" style="width: 600px">
+                        <input type="file" name="file" class="form-control" id="inputGroupFile02">
+                        <input type="submit" class="input-group-text" for="inputGroupFile02"></label>
+                    </div>
+                </form>
+                <br>
+                <a class="btn btn-primary" href="/">Back to home page</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
